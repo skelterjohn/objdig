@@ -14,6 +14,16 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+/*
+Usage: objdig [-j|-y] KEY+
+
+objdig takes a document on stdin and prints the values for one or more keys
+on stdout.
+
+If the doc is JSON, use -j. For YAML, use -y.
+
+A key is as defined for github.com/skelterjohn/overwrite.
+*/
 package main
 
 import (
